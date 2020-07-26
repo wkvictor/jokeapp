@@ -7,10 +7,10 @@ import org.springframework.context.annotation.Configuration;
 /**
  * This is an example of dependency injection
  */
-@Configuration
+//@Configuration
 public class ChuckConfiguration {
 
-    @Bean
+//    @Bean
     public ChuckNorrisQuotes chuckNorrisQuotes() {
         return new ChuckNorrisQuotes();
     }
